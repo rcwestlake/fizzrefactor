@@ -1,8 +1,9 @@
 $(document).ready(function() {
 	var userInput = prompt("Please select a number between 1 and 100.");
 
-	if (userInput % 1 != 0) {
-		alert("Hold your horses! Please enter a whole number - no decimals.");
+	while (userInput % 1 != 0) {
+		console.log("Hold your horses! Please enter a whole number - no decimals.");
+		var userInput = prompt("Hold your horses! Please enter a whole number - no decimals.");
 	}
 
 	var userNum = function(number) {
