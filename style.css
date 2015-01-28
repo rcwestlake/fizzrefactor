@@ -1,0 +1,14 @@
+#fizzylist {
+	margin-left: 10px;
+	margin-right: -600px;
+}
+
+#fizzylist li {
+	list-style-type: none;
+}
+
+#head {
+	text-align: center;
+	font-size: 80px;
+	font-family: Avenir Medium, Avenir, sans serif;
+}
