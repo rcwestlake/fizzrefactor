@@ -1,11 +1,13 @@
 $(document).ready(function() {
 	var userInput = prompt("Please select a number between 1 and 100.");
 
+	//notify user of decimal input
 	while (userInput % 1 != 0) {
 		console.log("Hold your horses! Please enter a whole number - no decimals.");
 		var userInput = prompt("Hold your horses! Please enter a whole number - no decimals.");
 	}
 
+	//run function loop
 	var userNum = function(number) {
 		for (var num = 1; num <= userInput; num++) {
 			if (num % 3 == 0 && num % 5 == 0) {
